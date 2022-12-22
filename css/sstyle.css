@@ -1,0 +1,258 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 320px;
+}
+
+
+.container {
+
+    max-width: 1110px;
+        width: 100%;
+    margin: auto;
+}
+
+header{
+    background: url(../imj/burger.jpg) no-repeat center/cover;
+}
+
+header .menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header .menu nav ul {
+    display: flex;
+}
+
+header .menu nav ul a {
+    padding: 25px 15px 29px 14px;
+    display: flex;
+    font-size: 16px;
+    color: rgb(0, 255, 0);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+header .menu nav ul a:hover {
+    background: rgb(30, 255, 0);
+    color: #fff;
+}
+
+header nav .logo {
+    width: 100px;
+    height: auto;
+    border: 3px solid #9dff00;
+    border-radius: 7px;
+    background: #62be19;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.text{
+    margin-top: 172px;
+    color: #62be19;
+}
+
+.text h2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button{
+    font-size: 50px;
+    padding: 30px 90px;
+    margin-top: 77px;
+    margin-bottom: 150px;
+    background: #539d1b;
+    opacity: 75%;
+    border: none;
+    color: #fff;
+}
+
+header .container .w1{
+    color: red;
+}
+
+header .container h1{
+    font-size: 55px;
+}
+
+.error{
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #539d1b;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ main {
+     background: #000;
+     padding-top: 52px;
+ }
+ 
+ main ul {
+     display: flex;
+     
+ }
+ 
+ main ul li a{
+     background: #000;
+     color: #7a7a7a;
+     display: flex;
+     margin-right: 44px;
+     font-size: 20px;
+ }
+ 
+ main ul li a:hover{
+     color: #69cf17;
+ }
+ 
+ 
+ .buager{
+      color: #fff;
+      margin-top: 69px;
+      
+ }
+ 
+ .buager h2{
+     margin-top: 31px;
+     margin-bottom: 19px;
+ }
+ 
+ .buager p{
+     padding-bottom: 10px;
+ }
+ 
+ .buager img{
+     width: 100%;
+ }
+ 
+ .w100{
+     display: grid;
+     grid-template-columns:  1fr 1fr 1fr;
+     gap: 30px;
+ }
+
+
+ /* main end */
+ /* **************************************************************************************** */
+ /* section start */
+
+ section h2{
+     text-align: center;
+     padding-top: 50px;
+     margin-bottom: 80px;
+ }
+
+ section h2::after{
+     content: '';
+     display: flex;
+     height: 2px;
+     width: 200px;
+     background: #69cf17;
+     margin-top: 25px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ section{
+     background: url(../imj/section_bg.png) no-repeat center/cover;
+ }
+
+ section .text0{
+     color: #fff;
+     margin: auto;
+     width: 1007px;
+ }
+
+ section .text0 h2{
+     color: green;
+ }
+
+ section .text0 .p1{
+     margin-bottom: 30px;
+ }
+
+ section .text0 .p2{
+    padding-bottom: 120px;
+ }
+
+
+.filial{
+     color: #69cf17;
+     padding-top: 51px;
+     padding-bottom: 58px;
+    text-align: center;
+    font-weight: 900;
+ }
+ 
+ .carta{
+     width: 100%;
+     height: 500px;
+ }
+ 
+ 
+ /* foter start */
+ /* ************************************************************************* */
+ 
+footer .logo{
+    width: 100px;
+    height: auto;
+    border: 3px solid #9dff00;
+    border-radius: 7px;
+    background: #62be19;
+    text-align: center;
+    margin-top: -5px;
+}
+
+footer{
+    background: linear-gradient(to bottom, #000 , rgb(0, 49, 0))
+}
+
+footer .logo2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+
+footer .buagerr ul{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+footer .buagerr ul li a{
+    color: #fff;
+}
+
+footer .buagerr{
+    width: 400px;
+    margin: auto;
+}
+footer p{
+  text-align: center;
+  margin-top: 49px;
+  padding-bottom: 53px;
+  color: #fff;
+}
+
+
+footer .buagerr ul li{
+    margin-top: 40px;
+}
